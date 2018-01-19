@@ -1,173 +1,181 @@
 {
-    "type": "CareContent",
-    "id": 174,
-    "activities": [
-                   {
-                   "question_survey": 951,
-                   "identifier": "1111",
-                   "title": "Play chess",
-                   "summery": "Play any  brain exercise",
-                   "instructions": "Download any game from AppStore",
-                   "start_date": "2018-01-02T11:11:22.993319",
-                   "end_date": "2018-01-19T11:11:22.993319",
-                   "schedule": "weekly",
-                   "occurrence": [
-                                  1,
-                                  2,
-                                  3,
-                                  5,
-                                  1,
-                                  2,
-                                  1
-                                  ],
-                   "groupID": "Game Activity",
-                   "tintColor": "#ff0000",
-                   "optional": false,
-                   "resultResettable": true,
-                   "carePlanActivityType": 0
-                   },
-                   {
-                   "question_survey": 952,
-                   "identifier": "FingerTapping",
-                   "title": "Eye speed test",
-                   "summery": "testing app for eye and remembering of image",
-                   "instructions": "Complete task in 60 seconds only",
-                   "start_date": "2017-11-21T11:11:22.993319",
-                   "end_date": "2017-11-27T11:11:22.993319",
-                   "schedule": "weekly",
-                   "occurrence": [
-                                  1,
-                                  2,
-                                  2,
-                                  3,
-                                  1,
-                                  6,
-                                  10
-                                  ],
-                   "groupID": "Physical Activity",
-                   "tintColor": "#5d320f",
-                   "optional": false,
-                   "resultResettable": false,
-                   "carePlanActivityType": 0
-                   },
-                   {
-                   "question_survey": 953,
-                   "identifier": "Running",
-                   "title": "Runing for physical",
-                   "summery": "Complete running task",
-                   "instructions": "Run 5km in morning",
-                   "start_date": "2017-10-23T11:11:22.993319",
-                   "end_date": "2017-10-27T11:11:22.993319",
-                   "schedule": "weekly",
-                   "occurrence": [
-                                  1,
-                                  2,
-                                  1,
-                                  2,
-                                  1,
-                                  2,
-                                  1
-                                  ],
-                   "groupID": "Game Activity",
-                   "tintColor": "#0000ff",
-                   "optional": false,
-                   "resultResettable": false,
-                   "carePlanActivityType": 0
-                   },
-                   {
-                       "question_survey": 954,
-                       "identifier": "custom",
-                       "title": "Blood glucose",
-                       "summery": "Provide your blood glucose value",
-                       "instructions": "Measure blood glucode value, and provide here",
-                       "start_date": "2018-01-01T11:11:22.993319",
-                       "end_date": "2018-01-17T11:11:22.993319",
-                       "schedule": "weekly",
-                       "occurrence": [
-                                      1,
-                                      1,
-                                      1,
-                                      1,
-                                      1,
-                                      1,
-                                      1
-                                      ],
-                       "groupID": "Assessment Activity",
-                       "tintColor": "#f000ff",
-                       "optional": false,
-                       "resultResettable": false,
-                       "answerType": {
-                           "type": 0,
-                           "isOptional": false,
-                           "defaultValues" : {
-                               "title": "Input your blood glucose",
-                               "value": 0
-                           }
-                       },
-                       "carePlanActivityType": 1
-                   },
-                   {
-                       "question_survey": 955,
-                       "identifier": "Play game Assessment",
-                       "title": "Play any board game",
-                       "summery": "Play any game for fun and brain exercise",
-                       "instructions": "Download any game from AppStore",
-                       "start_date": "2018-01-01T11:11:22.993319",
-                       "end_date": "2018-01-17T11:11:22.993319",
-                       "schedule": "weekly",
-                       "occurrence": [
-                                      1,
-                                      2,
-                                      2,
-                                      3,
-                                      1,
-                                      6,
-                                      10
-                                      ],
-                       "groupID": "Game Activity",
-                       "tintColor": "#ff0000",
-                       "optional": false,
-                       "resultResettable": true,
-                       "answerType": {
-                           "type": 1,
-                           "isOptional": false,
-                           "defaultValues" : {
-                               "title": "how much pain?",
-                               "max": 13,
-                               "min": 1,
-                               "value": 1,
-                               "step": 1,
-                               "isVertical": false,
-                               "minDesc": "low",
-                               "maxDesc": "high"
-                           }
-                       },
-                       "carePlanActivityType": 1
-                   },
-                   {
-                   "question_survey": 956,
-                   "identifier": "Play game Read only",
-                   "title": "Play any board game",
-                   "summery": "Play any game for fun and brain exercise",
-                   "instructions": "Download any game from AppStore",
-                   "start_date": "2017-11-10T11:11:22.993319",
-                   "end_date": "2017-11-17T11:11:22.993319",
-                   "schedule": "weekly",
-                   "occurrence": [
-                                  1,
-                                  2,
-                                  2,
-                                  3,
-                                  1,
-                                  6,
-                                  10
-                                  ],
-                   "groupID": "Game Activity",
-                   "tintColor": "#ff0000",
-                   "optional": false,
-                   "resultResettable": true,
-                   "carePlanActivityType": 2
-                   }
-                   ],
-    "title": "Care Contents"
-    }
+  "app_identifier": "",
+  "data": {
+    "surveys": [
+      {
+        "type": "CareContent",
+        "id": 174,
+        "activities": [
+          {
+            "question_survey": 951,
+            "identifier": "1111",
+            "title": "Play chess",
+            "summery": "Play any  brain exercise",
+            "instructions": "Download any game from AppStore",
+            "start_date": "2018-01-02T11:11:22.993319",
+            "end_date": "2018-01-19T11:11:22.993319",
+            "schedule": "weekly",
+            "occurrence": [
+              1,
+              2,
+              3,
+              5,
+              1,
+              2,
+              1
+            ],
+            "groupID": "Game Activity",
+            "tintColor": "#ff0000",
+            "optional": false,
+            "resultResettable": true,
+            "carePlanActivityType": 0
+          },
+          {
+            "question_survey": 952,
+            "identifier": "FingerTapping",
+            "title": "Eye speed test",
+            "summery": "testing app for eye and remembering of image",
+            "instructions": "Complete task in 60 seconds only",
+            "start_date": "2017-11-21T11:11:22.993319",
+            "end_date": "2017-11-27T11:11:22.993319",
+            "schedule": "weekly",
+            "occurrence": [
+              1,
+              2,
+              2,
+              3,
+              1,
+              6,
+              10
+            ],
+            "groupID": "Physical Activity",
+            "tintColor": "#5d320f",
+            "optional": false,
+            "resultResettable": false,
+            "carePlanActivityType": 0
+          },
+          {
+            "question_survey": 953,
+            "identifier": "Running",
+            "title": "Runing for physical",
+            "summery": "Complete running task",
+            "instructions": "Run 5km in morning",
+            "start_date": "2017-10-23T11:11:22.993319",
+            "end_date": "2017-10-27T11:11:22.993319",
+            "schedule": "weekly",
+            "occurrence": [
+              1,
+              2,
+              1,
+              2,
+              1,
+              2,
+              1
+            ],
+            "groupID": "Game Activity",
+            "tintColor": "#0000ff",
+            "optional": false,
+            "resultResettable": false,
+            "carePlanActivityType": 0
+          },
+          {
+            "question_survey": 954,
+            "identifier": "custom",
+            "title": "Blood glucose",
+            "summery": "Provide your blood glucose value",
+            "instructions": "Measure blood glucode value, and provide here",
+            "start_date": "2018-01-01T11:11:22.993319",
+            "end_date": "2018-01-17T11:11:22.993319",
+            "schedule": "weekly",
+            "occurrence": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "groupID": "Assessment Activity",
+            "tintColor": "#f000ff",
+            "optional": false,
+            "resultResettable": false,
+            "answerType": {
+              "type": 0,
+              "isOptional": false,
+              "defaultValues": {
+                "title": "Input your blood glucose",
+                "value": 0
+              }
+            },
+            "carePlanActivityType": 1
+          },
+          {
+            "question_survey": 955,
+            "identifier": "Play game Assessment",
+            "title": "Play any board game",
+            "summery": "Play any game for fun and brain exercise",
+            "instructions": "Download any game from AppStore",
+            "start_date": "2018-01-01T11:11:22.993319",
+            "end_date": "2018-01-17T11:11:22.993319",
+            "schedule": "weekly",
+            "occurrence": [
+              1,
+              2,
+              2,
+              3,
+              1,
+              6,
+              10
+            ],
+            "groupID": "Game Activity",
+            "tintColor": "#ff0000",
+            "optional": false,
+            "resultResettable": true,
+            "answerType": {
+              "type": 1,
+              "isOptional": false,
+              "defaultValues": {
+                "title": "how much pain?",
+                "max": 13,
+                "min": 1,
+                "value": 1,
+                "step": 1,
+                "isVertical": false,
+                "minDesc": "low",
+                "maxDesc": "high"
+              }
+            },
+            "carePlanActivityType": 1
+          },
+          {
+            "question_survey": 956,
+            "identifier": "Play game Read only",
+            "title": "Play any board game",
+            "summery": "Play any game for fun and brain exercise",
+            "instructions": "Download any game from AppStore",
+            "start_date": "2017-11-10T11:11:22.993319",
+            "end_date": "2017-11-17T11:11:22.993319",
+            "schedule": "weekly",
+            "occurrence": [
+              1,
+              2,
+              2,
+              3,
+              1,
+              6,
+              10
+            ],
+            "groupID": "Game Activity",
+            "tintColor": "#ff0000",
+            "optional": false,
+            "resultResettable": true,
+            "carePlanActivityType": 2
+          }
+        ],
+        "title": "Care Contents"
+      }
+    ]
+  },
+  "generated_on": "2017-08-04T11:11:22.993319"
+}
